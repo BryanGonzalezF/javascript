@@ -32,10 +32,3 @@ let carros = {
     marca: "kia"
 }
 
-function objeto(object){
-   while(object ===0){
-    console.log(object)
-   }
-}
-
-objeto(carros)
