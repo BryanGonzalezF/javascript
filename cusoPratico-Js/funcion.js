@@ -1,11 +1,9 @@
 function persona(name, lastname, nickname){
-    const namef = name
-    const lastnamef = lastname
-    const completeName= namef + lastnamef
-    const nicknamef = nickname
+    const completeName= name + " " + lastname
+   
     
-    console.log("Mi nombre es "+ completeName + ", pero prefiero que me digan "+ nicknamef  + ".")
+    console.log("Mi nombre es "+ completeName + ", pero prefiero que me digan "+ nickname  + ".")
 } 
 
-persona("Bryan ", "Gonzalez", "Bryan")
+persona("Bryan", "Gonzalez", "Bryan")
 
